@@ -46,9 +46,11 @@ ul {
     align-items: center;
     gap: 0 20px;
 }
+
 .user-actions__item-search {
     margin-left: 80px;
 }
+
 .logo {
     margin-bottom: 35px;
 }
@@ -61,3 +63,45 @@ body {
     line-height: 1.5;
 }
 
+.top {
+    background-image: url("../images/top-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+.top__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: Cormorant, serif;
+    min-height: 500px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.top__title {
+    font-size: 60px;
+    margin-bottom: 20px;
+    max-width: 790px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.top__text {
+    font-size: 24px;
+    margin-bottom: 48px;
+    max-width: 560px;
+    line-height: normal;
+}
+
+.blockquote__text {
+    text-align: center;
+    font-family: Cormorant, serif;
+    max-width: 700px;
+    font-size: 40px;
+    font-style: italic;
+    line-height: normal;
+    margin: 150px auto;
+    font-weight: 300;
+}
