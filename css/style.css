@@ -8,6 +8,10 @@ html {
     box-sizing: inherit;
 }
 
+h1, h2, h3 {
+    margin: 0;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -15,6 +19,10 @@ a {
 
 ul {
     list-style: none;
+}
+
+p {
+    margin: 0;
 }
 
 button {
@@ -132,6 +140,51 @@ body {
     font-weight: 300;
     margin: 0;
 }
+
+.explore__tea__collection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    /*margin: 0 auto;*/
+    font-family: Cormorant, serif;
+    margin-bottom: 150px;
+}
+
+.tea-collection__title {
+    margin-bottom: 60px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 1;
+    color: #151618;
+}
+
+.tea-collection__item-description {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #151618;
+    margin-top: 10px
+}
+
+
+.tea-collection__item-image {
+    width: 208px;
+    height: 208px;
+}
+
+.tea__collection-images {
+    display: flex;
+    flex-direction: row;
+    gap: 0 40px;
+}
+
+.tea-collection__item {
+    text-align: center;
+}
+
 
 @media (max-width: 1000px) {
     .user-actions__item-search {
