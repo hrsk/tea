@@ -6,6 +6,7 @@ html {
 *::before,
 *::after {
     box-sizing: inherit;
+    margin: 0;
 }
 
 h1, h2, h3 {
@@ -145,7 +146,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 1200px;
+    /*max-width: 1200px;*/
     /*margin: 0 auto;*/
     font-family: Cormorant, serif;
     margin-bottom: 150px;
@@ -153,7 +154,7 @@ body {
 
 .tea-collection__title {
     margin-bottom: 60px;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     font-size: 40px;
     line-height: 1;
@@ -179,12 +180,51 @@ body {
     display: flex;
     flex-direction: row;
     gap: 0 40px;
+    flex-wrap: wrap;
 }
 
 .tea-collection__item {
     text-align: center;
 }
 
+.testimonials {
+    /*max-width: 1600px;*/
+    background-color: #F7F2EA;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimonials__title {
+    font-family: 'Cormorant', serif;
+    font-size: 40px;
+    font-weight: 300;
+    margin: 60px 0;
+}
+
+.testimonials__items {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    gap: 0 26px;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+
+}
+
+.testimonials-item__description {
+    width: 280px;
+}
+.testimonials-item__description-text {
+    font-weight: 300;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 22px;
+}
+.testimonials-item__description-user__name {
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+}
 
 @media (max-width: 1000px) {
     .user-actions__item-search {
