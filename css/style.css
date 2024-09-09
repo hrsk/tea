@@ -467,7 +467,7 @@ body {
     font-family: Cormorant, serif;
     font-size: 40px;
     font-style: normal;
-    line-height: 48px ;
+    line-height: 48px;
     font-weight: 400;
     margin-top: 150px;
     margin-bottom: 60px;
@@ -506,6 +506,126 @@ body {
 }
 
 
+.footer {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-evenly;*/
+    /*margin-top: 100px;*/
+}
+.footer__wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.footer__bottom {
+    display: flex;
+    gap: 0 200px;
+    margin-bottom: 20px;
+    margin-left: 185px;
+}
+.payments__methods {
+    display: flex;
+    gap: 0 20px;
+}
+.copyright {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.products__title {
+    padding-right: 13px;
+    padding-bottom: 50px;
+    font-family: 'Cormorant', serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.company__title {
+    padding-right: 64px;
+    padding-bottom: 50px;
+    font-family: 'Cormorant', serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer-blockquote {
+    font-size: 16px;
+    max-width: 270px;
+    margin-top: 80px;
+    font-style: italic;
+    margin-bottom: 100px;
+}
+.quote-author {
+    font-size: 12px;
+    margin-top: 20px;
+    font-weight: 300;
+}
+.contacts__wrapper {
+    display: flex;
+    gap: 0 40px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.contacts__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 20px 0;
+    margin-right: 37px;
+}
+.contacts__list-item__email {
+    font-size: 13px;
+}
+.contacts__list-item__phone {
+    font-size: 13px;
+}
+.in__touch {
+    max-width: 270px
+}
+.in__touch-title {
+    font-family: 'Cormorant', serif;
+    margin-bottom: 50px;
+    font-size: 24px;
+    line-height: 29px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+
+.in__touch-text {
+    font-size: 13px;
+}
+
+.footer__contacts {
+    display: flex;
+    gap: 0 40px;
+}
+
+.contacts__list-item {
+    display: flex;
+}
+
+.social__media {
+    gap: 20px;
+    display: flex;
+    justify-content: flex-end;
+    bottom: 0;
+}
 
 @media (max-width: 1000px) {
     .user-actions__item-search {
