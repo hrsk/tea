@@ -58,6 +58,7 @@ button {
     position: relative;
     z-index: 2;
 }
+
 .menu--close {
     display: none;
     position: absolute;
@@ -69,9 +70,11 @@ button {
     z-index: 1;
     transition: background-color .5s ease;
 }
+
 .menu--close.menu--open {
     display: block;
 }
+
 .menu__item-close__button {
     cursor: pointer;
 }
@@ -178,6 +181,7 @@ body {
     /*margin: 0 auto;*/
     font-family: Cormorant, serif;
     margin-bottom: 150px;
+    flex-wrap: wrap;
 }
 
 .tea-collection__title {
@@ -260,7 +264,6 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: Cormorant, serif;
-
 }
 
 .articles__list {
@@ -268,6 +271,7 @@ body {
     display: grid;
     grid-template-columns: auto auto;
     gap: 40px 58px;
+    flex-wrap: wrap;
 }
 
 .articles__list-item {
@@ -320,7 +324,7 @@ body {
     text-align: center;
     background-color: #fff;
     border: 1px solid #151618;
-    margin: 60px 0 150px 0;
+    /*margin: 60px 0 150px 0;*/
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -458,6 +462,7 @@ body {
 .prioritise__list {
     display: flex;
     gap: 0 50px;
+    flex-wrap: wrap;
 }
 
 .prioritise-title {
@@ -741,9 +746,9 @@ body {
     }
 
     .mobile__menu-list {
-        /*display: flex;*/
-        /*flex-direction: column;*/
-        /*align-items: center;*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .mobile__menu-item__border {
@@ -884,9 +889,69 @@ body {
 
 }
 
+
+/*media 360px*/
+
 @media (max-width: 360px) {
     .user-actions__item-search {
         margin-left: 0;
+    }
+
+    .menu__list {
+        max-width: 360px;
+    }
+    .tea__blog-title {
+        font-size: 24px;
+    }
+    .articles__list {
+        display: flex;
+        flex-direction: column;
+        max-width: 360px;
+    }
+
+    .articles__list-item {
+        flex-direction: column;
+    }
+
+    .article__writer-name {
+        margin: 5px 0 10px 0;
+    }
+
+    .articles__list-item__description {
+        margin-left: 0;
+    }
+
+    .explore__tea__collection {
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+
+    .tea-collection__title {
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .tea__collection-images {
+        /*width: 360px;*/
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 0;
+    }
+
+    .tea-collection__item {
+        grid-column: span 2;
+        /*background: #AB47BC;*/
+        /*padding: 20px;*/
+    }
+
+    .tea-collection__item.last__item {
+        grid-column-end: 4;
+    }
+
+    .tea-collection__item-image {
+        width: 164px;
+        height: 164px;
     }
 
     .top__title {
@@ -903,16 +968,65 @@ body {
         margin-right: 50px;
     }
 
-    /*.container {*/
-    /*    padding: 0 10px;*/
-    /*}*/
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 10px;
+    }
+
+    .tea__blog {
+        margin-bottom: 50px;
+    }
+    .view-all {
+        margin-top: 30px;
+    }
+    .tea__blog-title {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .testimonials__title {
+        margin: 50px 0 30px 0;
+        font-size: 24px;
+    }
+
+    .testimonials__items {
+        margin: 0 10px 0 10px;
+        gap: 30px 0;
+    }
+
+    .testimonials-item__description.last__item {
+        margin-bottom: 50px;
+    }
+
+    .testimonials-item__description {
+        width: 100%;
+    }
+
+    .prioritise-title {
+        text-align: center;
+    }
+
+    .prioritise__list-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: none;
+    }
+
     .header__inner {
-        max-width: 340px;
-        padding: 10px 0;
+        max-width: 360px;
     }
 
     .blockquote {
         margin: 70px 10px 80px 10px;
     }
 
+    .prioritise__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
 }
