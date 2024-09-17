@@ -115,7 +115,6 @@
 
 <main class="main">
     <section class="top">
-        <div class="container">
             <div class="top__inner">
                 <h1 class="top__title">
                     A cup of tea is a moment of calm in the chaos of life
@@ -124,7 +123,6 @@
                     Wide selection of high-quality teas from all over the world, carefully curated by tea experts.
                 </p>
             </div>
-        </div>
     </section>
     <section class="blockquote">
         <blockquote class="blockquote__text">
@@ -178,19 +176,19 @@
                 </p>
                 <h3 class="testimonials-item__description-user__name">Alice</h3>
             </li>
-            <li class="testimonials-item__description">
+            <li class="testimonials-item__description last__item">
                 <p class="testimonials-item__description-text">
                     "This tea store is my go-to for all my tea needs. Their selection is unbeatable and the quality of
                     their teas is exceptional."
                 </p>
                 <h3 class="testimonials-item__description-user__name">Mad-Hatter</h3>
             </li>
-            <li class="testimonials-item__description">
+            <li class="testimonials-item__description hidden">
                 <p class="testimonials-item__description-text">"If you're a tea lover, you must visit this tea store.
                     The selection is vast and the quality is outstanding. I guarantee you won't be disappointed."</p>
                 <h3 class="testimonials-item__description-user__name">Dormouse</h3>
             </li>
-            <li class="testimonials-item__description last__item">
+            <li class="testimonials-item__description last__item hidden">
                 <p class="testimonials-item__description-text">"I am not a big tea drinker, but this tea store has
                     converted me. I highly recommend this tea store to anyone looking for a high-quality tea
                     experience."</p>
@@ -222,7 +220,7 @@
                     <a href="#" class="article__link">Read <img src="images/icons/arrow-icon.svg" alt=""/></a>
                 </div>
             </li>
-            <li class="articles__list-item">
+            <li class="articles__list-item hidden">
                 <img class="articles__list-item__image" src="images/blog-images/article-image-3.jpg" alt="">
                 <div class="articles__list-item__description">
                     <h3 class="article__title">Tea-rific Tales: Hilarious Stories from Tea Lovers</h3>
@@ -230,7 +228,7 @@
                     <a href="#" class="article__link">Read <img src="images/icons/arrow-icon.svg" alt=""/></a>
                 </div>
             </li>
-            <li class="articles__list-item">
+            <li class="articles__list-item hidden">
                 <img class="articles__list-item__image" src="images/blog-images/article-image-4.jpg" alt="">
                 <div class="articles__list-item__description">
                     <h3 class="article__title">Tea and Caffeine: Effects on the Brain and Behavior</h3>
@@ -244,7 +242,8 @@
 
     <section class="subscribe">
         <div class="subscribe__container">
-            <img class="subscribe__background-image" src="images/backgrounds/subscribe-background-image.png" alt="">
+            <img class="subscribe__background-image mobile" src="images/backgrounds/subscribe-background-image.png"
+                 alt="">
             <div class="subscribe__description">
                 <h2 class="subscribe__description-title">
                     Want to know more?
@@ -283,87 +282,89 @@
     </section>
 
     <section class="prioritise">
-        <div class="container">
-            <h2 class="prioritise-title">
-                We Prioritise
-            </h2>
-            <ul class="prioritise__list">
-                <li class="prioritise__list-item">
-                    <span class="prioritise__list-item__title">Single garden teas</span>
-                    <p class="prioritise__list-item__description">Complete transparency</p>
-                    <img class="prioritise__list-item__image" src="images/prioritise-images/tea-garden.svg" alt="">
-                </li>
-                <li class="prioritise__list-item">
-                    <span class="prioritise__list-item__title">Only Loose leaf tea</span>
-                    <p class="prioritise__list-item__description">Best Drinking Experience</p>
-                    <img class="prioritise__list-item__image" src="images/prioritise-images/tea-leaf.svg" alt="">
-                </li>
-                <li class="prioritise__list-item">
-                    <span class="prioritise__list-item__title">Customer support</span>
-                    <p class="prioritise__list-item__description">No bots, no automated replies</p>
-                    <img class="prioritise__list-item__image" src="images/prioritise-images/headphone.svg" alt="">
-                </li>
-                <li class="prioritise__list-item">
-                    <span class="prioritise__list-item__title">Fast shipping</span>
-                    <p class="prioritise__list-item__description">Save, Convenient, Reliable</p>
-                    <img class="prioritise__list-item__image" src="images/prioritise-images/box.svg" alt="">
-                </li>
+        <h2 class="prioritise-title">
+            We Prioritise
+        </h2>
+        <ul class="prioritise__list">
+            <li class="prioritise__list-item">
+                <span class="prioritise__list-item__title">Single garden teas</span>
+                <p class="prioritise__list-item__description">Complete transparency</p>
+                <img class="prioritise__list-item__image" src="images/prioritise-images/tea-garden.svg" alt="">
+            </li>
+            <li class="prioritise__list-item">
+                <span class="prioritise__list-item__title">Only Loose leaf tea</span>
+                <p class="prioritise__list-item__description">Best Drinking Experience</p>
+                <img class="prioritise__list-item__image" src="images/prioritise-images/tea-leaf.svg" alt="">
+            </li>
+            <li class="prioritise__list-item">
+                <span class="prioritise__list-item__title">Customer support</span>
+                <p class="prioritise__list-item__description">No bots, no automated replies</p>
+                <img class="prioritise__list-item__image" src="images/prioritise-images/headphone.svg" alt="">
+            </li>
+            <li class="prioritise__list-item">
+                <span class="prioritise__list-item__title">Fast shipping</span>
+                <p class="prioritise__list-item__description">Save, Convenient, Reliable</p>
+                <img class="prioritise__list-item__image" src="images/prioritise-images/box.svg" alt="">
+            </li>
 
-            </ul>
-        </div>
+        </ul>
     </section>
 
     <footer class="footer">
         <div class="footer__wrapper">
-            <div class="products">
-                <p class="products__title">Products</p>
-                <ul class="products__list">
-                    <li class="products__list-item"><a href="#" class="products__list-item__link">Black tea</a></li>
-                    <li class="products__list-item"><a href="#" class="products__list-item__link">Green tea</a></li>
-                    <li class="products__list-item"><a href="#" class="products__list-item__link">White tea</a></li>
-                    <li class="products__list-item"><a href="#" class="products__list-item__link">Oolong tea</a></li>
-                    <li class="products__list-item"><a href="#" class="products__list-item__link">Pu-erh tea</a></li>
-                </ul>
-            </div>
-            <div class="company">
-                <p class="company__title">Company</p>
-                <ul class="company__information__list">
-                    <li class="company__information__list-item">
-                        <a href="#"
-                           class="company__information__list-item__link">About
-                            Us</a></li>
-                    <li class="company__information__list-item">
-                        <a href="#"
-                           class="company__information__list-item__link">Contact
-                            Us</a></li>
-                    <li class="company__information__list-item">
-                        <a href="#"
-                           class="company__information__list-item__link">Our
-                            Blog</a></li>
-                    <li class="company__information__list-item">
-                        <a href="#"
-                           class="company__information__list-item__link">FAQ</a>
-                    </li>
-                    <li class="company__information__list-item">
-                        <a href="#"
-                           class="company__information__list-item__link">Shipping &
-                            Delivery</a></li>
-                    <li class="company__information__list-item">
-                        <a href="#"
-                           class="company__information__list-item__link">Refund
-                            policy</a></li>
-                    <li class="company__information__list-item">
-                        <a href="#"
-                           class="company__information__list-item__link">Terms of
-                            Service</a></li>
-                </ul>
+            <div class="footer__description">
+                <div class="products">
+                    <p class="products__title">Products</p>
+                    <ul class="products__list">
+                        <li class="products__list-item"><a href="#" class="products__list-item__link">Black tea</a></li>
+                        <li class="products__list-item"><a href="#" class="products__list-item__link">Green tea</a></li>
+                        <li class="products__list-item"><a href="#" class="products__list-item__link">White tea</a></li>
+                        <li class="products__list-item"><a href="#" class="products__list-item__link">Oolong tea</a>
+                        </li>
+                        <li class="products__list-item last__item"><a href="#" class="products__list-item__link">Pu-erh
+                            tea</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="company">
+                    <p class="company__title">Company</p>
+                    <ul class="company__information__list">
+                        <li class="company__information__list-item">
+                            <a href="#"
+                               class="company__information__list-item__link">About
+                                Us</a></li>
+                        <li class="company__information__list-item">
+                            <a href="#"
+                               class="company__information__list-item__link">Contact
+                                Us</a></li>
+                        <li class="company__information__list-item">
+                            <a href="#"
+                               class="company__information__list-item__link">Our
+                                Blog</a></li>
+                        <li class="company__information__list-item">
+                            <a href="#"
+                               class="company__information__list-item__link">FAQ</a>
+                        </li>
+                        <li class="company__information__list-item">
+                            <a href="#"
+                               class="company__information__list-item__link">Shipping &
+                                Delivery</a></li>
+                        <li class="company__information__list-item">
+                            <a href="#"
+                               class="company__information__list-item__link">Refund
+                                policy</a></li>
+                        <li class="company__information__list-item">
+                            <a href="#"
+                               class="company__information__list-item__link">Terms of
+                                Service</a></li>
+                    </ul>
+                </div>
             </div>
             <div class="footer__contacts">
                 <blockquote class="footer-blockquote">
                     “Tea is a journey. It can take you to new places and open your mind to new experiences. Let every
                     sip transport you to a world of wonder and possibility”
-                    <p class="quote-author">Dragomir Teodorescu,
-                        <br/> Tealuxe owner</p>
+                    <p class="quote-author"><span>Dragomir Teodorescu,</span> <span>Tealuxe owner</span></p>
                 </blockquote>
                 <div class="in__touch">
                     <p class="in__touch-title">Stay In Touch</p>
