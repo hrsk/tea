@@ -894,7 +894,7 @@ body {
 
 /*media 360px*/
 
-@media (max-width: 360px) {
+@media only screen and (min-width : 320px) {
     .top__inner {
         padding: 0 10px;
         gap: 10px 0
@@ -913,13 +913,16 @@ body {
         margin-right: 10px;
         margin-bottom: 30px;
     }
+    .user-actions.hidden {
+        display: none;
+    }
 
     .user-actions__item-search {
         margin-left: 0;
     }
 
     .menu__list {
-        max-width: 360px;
+        max-width: 320px;
     }
 
     .tea__blog-title {
@@ -929,7 +932,7 @@ body {
     .articles__list {
         display: flex;
         flex-direction: column;
-        max-width: 360px;
+        max-width: 320px;
     }
 
     .articles__list-item {
@@ -964,7 +967,6 @@ body {
     }
 
     .tea__collection-images {
-        /*width: 360px;*/
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 0;
@@ -972,8 +974,6 @@ body {
 
     .tea-collection__item {
         grid-column: span 2;
-        /*background: #AB47BC;*/
-        /*padding: 20px;*/
     }
 
     .tea-collection__item.last__item {
@@ -986,7 +986,7 @@ body {
     }
 
     .logo {
-        margin-right: 50px;
+        margin-left: 90px;
     }
 
     .container {
@@ -1124,8 +1124,8 @@ body {
     .footer__description {
         display: flex;
         justify-content: center;
-        margin: 50px 25px 40px 10px;
-        gap: 0 73px;
+        margin: 50px 10px 40px 10px;
+        gap: 0 33px;
     }
 
     .in__touch {
