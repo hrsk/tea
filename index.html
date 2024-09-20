@@ -15,6 +15,8 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="(max-width: 480px)" href="css/480px@media.css">
+    <link rel="stylesheet" media="(max-width: 320px)" href="./css/320px@media.css">
 </head>
 
 <body>
@@ -115,14 +117,14 @@
 
 <main class="main">
     <section class="top">
-            <div class="top__inner">
-                <h1 class="top__title">
-                    A cup of tea is a moment of calm in the chaos of life
-                </h1>
-                <p class="top__text">
-                    Wide selection of high-quality teas from all over the world, carefully curated by tea experts.
-                </p>
-            </div>
+        <div class="top__inner">
+            <h1 class="top__title">
+                A cup of tea is a moment of calm in the chaos of life
+            </h1>
+            <p class="top__text">
+                Wide selection of high-quality teas from all over the world, carefully curated by tea experts.
+            </p>
+        </div>
     </section>
     <section class="blockquote">
         <blockquote class="blockquote__text">
@@ -176,7 +178,7 @@
                 </p>
                 <h3 class="testimonials-item__description-user__name">Alice</h3>
             </li>
-            <li class="testimonials-item__description last__item">
+            <li class="testimonials-item__description last__item-mobile">
                 <p class="testimonials-item__description-text">
                     "This tea store is my go-to for all my tea needs. Their selection is unbeatable and the quality of
                     their teas is exceptional."
@@ -188,7 +190,7 @@
                     The selection is vast and the quality is outstanding. I guarantee you won't be disappointed."</p>
                 <h3 class="testimonials-item__description-user__name">Dormouse</h3>
             </li>
-            <li class="testimonials-item__description last__item hidden">
+            <li class="testimonials-item__description last__item-desktop hidden">
                 <p class="testimonials-item__description-text">"I am not a big tea drinker, but this tea store has
                     converted me. I highly recommend this tea store to anyone looking for a high-quality tea
                     experience."</p>
@@ -373,27 +375,36 @@
                     </p>
                     <div class="contacts__wrapper">
                         <img src="images/logo.svg" alt="">
-                        <div class="contacts__list">
-                            <div class="contacts__list-item">
-                                <img src="images/contacts/email.svg" alt="">
-                                <p class="contacts__list-item__email">
-                                    info@tealuxe.com
-                                </p>
+                        <div class="contacts__list-wrapper">
+                            <div class="contacts__list">
+                                <div class="contacts__list-item">
+                                    <img src="images/contacts/email.svg" alt="" class="contacts__list-item__image">
+                                    <p class="contacts__list-item__email">
+                                        info@tealuxe.com
+                                    </p>
+                                </div>
+                                <div class="contacts__list-item">
+                                    <img src="images/contacts/phone.svg" alt="" class="contacts__list-item__image">
+                                    <p class="contacts__list-item__phone">
+                                        +370 680 123456
+                                    </p>
+                                </div>
+
                             </div>
-                            <div class="contacts__list-item">
-                                <img src="images/contacts/phone.svg" alt="">
-                                <p class="contacts__list-item__phone">
-                                    +370 680 123456
-                                </p>
+                            <div class="social__media">
+                                <img src="images/social_media/facebook.svg" alt="" class="social__media-logo">
+                                <img src="images/social_media/youtube.svg" alt="" class="social__media-logo">
+                                <img src="images/social_media/instagram.svg" alt="" class="social__media-logo">
+                                <img src="images/social_media/twitter.svg" alt="" class="social__media-logo">
                             </div>
                         </div>
                     </div>
-                    <div class="social__media">
-                        <img src="images/social_media/facebook.svg" alt="" class="social__media-logo">
-                        <img src="images/social_media/youtube.svg" alt="" class="social__media-logo">
-                        <img src="images/social_media/instagram.svg" alt="" class="social__media-logo">
-                        <img src="images/social_media/twitter.svg" alt="" class="social__media-logo">
-                    </div>
+                    <!--                    <div class="social__media">-->
+                    <!--                        <img src="images/social_media/facebook.svg" alt="" class="social__media-logo">-->
+                    <!--                        <img src="images/social_media/youtube.svg" alt="" class="social__media-logo">-->
+                    <!--                        <img src="images/social_media/instagram.svg" alt="" class="social__media-logo">-->
+                    <!--                        <img src="images/social_media/twitter.svg" alt="" class="social__media-logo">-->
+                    <!--                    </div>-->
                 </div>
             </div>
         </div>
