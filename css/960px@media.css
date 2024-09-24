@@ -1,4 +1,4 @@
-@media screen and (min-width: 960px) {
+@media screen and (max-width: 960px) {
 
     .header__inner {
         padding: 30px 20px;
@@ -13,9 +13,11 @@
     }
 
     .top {
-        padding: 0 20px;
+        /*padding: 0 20px;*/
     }
-
+    .top__inner {
+        margin-left: 20px;
+    }
     .top__title {
         font-size: 60px;
     }
