@@ -60,8 +60,9 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 142px;
-    max-width: 1200px;
+    padding: 10px;
+    max-height: 142px;
+    /*max-width: 1200px;*/
 }
 
 .top__inner {
@@ -340,7 +341,7 @@ body {
 }
 
 .articles__list-item__image {
-    max-width: 270px;
+    min-width: 270px;
 }
 
 .view-all {
@@ -557,7 +558,7 @@ body {
 .footer__bottom {
     display: flex;
     justify-content: space-evenly;
-    gap: 0 200px;
+    /*gap: 0 200px;*/
 }
 
 .payments__methods {

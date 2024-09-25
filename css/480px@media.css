@@ -8,7 +8,6 @@
         font-size: 40px;
     }
 
-
     .header__inner {
         padding: 10px;
         min-height: auto;
@@ -69,26 +68,12 @@
 
     .tea__collection-images {
         display: flex;
-        /*display: grid;*/
         align-items: center;
-        /*grid-template-columns: repeat(4, 1fr);*/
         grid-gap: 0;
     }
 
-    .tea-collection__item {
-        /*grid-column: span 2;*/
-    }
-
-    .tea-collection__item.last__item {
-        /*grid-column-end: 4;*/
-    }
-
-    .testimonials {
-        padding: 0 10px;
-    }
-
     .testimonials__title {
-        margin: 50px 0 30px 0;
+        margin-bottom: 30px;
         font-size: 40px;
     }
 
@@ -114,9 +99,11 @@
     .testimonials-item__description {
         width: 100%;
     }
+
     .tea__blog {
         padding: 0 10px;
     }
+
     .tea__blog-container {
         margin: 60px 0;
     }
@@ -130,10 +117,6 @@
 
     .articles__list li:nth-child(2n) {
         margin-left: 0
-    }
-
-    .articles__list-item__image {
-        max-width: 230px;
     }
 
     .article__writer-name {
