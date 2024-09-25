@@ -47,7 +47,6 @@ body {
     background-repeat: no-repeat;
     background-position: bottom left;
     background-size: cover;
-    padding-left: 200px;
 }
 
 .header {
@@ -72,6 +71,7 @@ body {
     font-family: Cormorant, serif;
     min-height: 500px;
     color: #fff;
+    margin-left: 200px;
 }
 
 .blockquote {
@@ -286,7 +286,7 @@ body {
 
 .tea__blog-container {
     width: 100%;
-    max-width: 1400px;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -296,8 +296,6 @@ body {
     font-family: Cormorant, serif;
     display: grid;
     grid-template-columns: auto auto;
-    max-width: 1200px;
-    width: 100%;
     gap: 40px 58px;
     flex-wrap: wrap;
     margin: 60px 0;
@@ -610,7 +608,6 @@ body {
     font-size: 16px;
     max-width: 270px;
     width: 100%;
-    /*margin-top: 80px;*/
     font-style: italic;
     margin-bottom: 100px;
 }
@@ -625,7 +622,6 @@ body {
     display: flex;
     gap: 0 40px;
     margin-top: 40px;
-    /*margin-bottom: 50px;*/
 }
 
 .contacts__list-item {
