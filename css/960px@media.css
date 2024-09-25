@@ -49,8 +49,8 @@
         display: none;
     }
 
-    .tea__blog {
-        padding: 120px 0;
+    .tea__blog-container {
+        margin: 120px 0;
     }
 
     .articles__list {

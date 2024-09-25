@@ -23,10 +23,14 @@
         width: 40px;
         height: 56px;
     }
+
     .blockquote {
         margin: 60px 52px;
     }
+
     .blockquote__text {
+        display: flex;
+        justify-content: center;
         font-size: 16px;
     }
 
@@ -57,10 +61,12 @@
     .explore__tea__collection {
         margin: 0 32px 60px 32px;
     }
+
     .tea-collection__item-image {
         width: 124px;
         height: 124px;
     }
+
     .tea__collection-images {
         display: flex;
         /*display: grid;*/
@@ -109,38 +115,46 @@
         width: 100%;
     }
     .tea__blog {
-        margin: 60px 10px;
+        padding: 0 10px;
     }
-    .tea__blog-title {
-        margin-top: 0;
+    .tea__blog-container {
+        margin: 60px 0;
     }
+
     .articles__list {
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin-bottom: 60px;
     }
+
     .articles__list li:nth-child(2n) {
         margin-left: 0
     }
+
     .articles__list-item__image {
         max-width: 230px;
     }
+
     .article__writer-name {
         margin: 0;
     }
+
     .subscribe {
         max-width: 480px;
     }
+
     .subscribe__container {
         margin: 50px 10px;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
+
     .subscribe__description {
         align-items: center;
     }
+
     .subscribe__description-action {
         display: flex;
         flex-direction: column;
@@ -160,9 +174,10 @@
         display: flex;
     }
 
-    .prioritise {
-        padding: 60px 0;
+    .prioritise__container {
+        margin: 60px 0;
     }
+
     .prioritise-title {
         text-align: center;
         font-size: 40px;
@@ -182,9 +197,6 @@
         justify-content: center;
     }
 
-    .footer {
-        width: 480px;
-    }
     .footer__wrapper {
         margin: 0;
         display: flex;
@@ -201,12 +213,14 @@
         padding: 0 10px;
         text-align: left;
         margin-bottom: 50px;
+        max-width: fit-content;
     }
 
     .in__touch {
         display: flex;
         flex-direction: column;
         align-items: center;
+        max-width: fit-content;
     }
 
     .in__touch-title {
@@ -253,9 +267,9 @@
     .footer__bottom {
         display: flex;
         justify-content: space-evenly;
-        gap: 0;
         margin: 50px 0 10px 0;
     }
+
     .contacts__list-wrapper {
         display: flex;
         flex-direction: row;
@@ -263,14 +277,17 @@
         align-items: center;
         margin-bottom: 0;
     }
+
     .contacts__wrapper {
         gap: 0 20px;
         margin-bottom: 0;
     }
+
     .social__media img {
         width: 22px;
         height: 22px;
     }
+
     .contacts__list {
         justify-content: flex-end;
         gap: 10px;
